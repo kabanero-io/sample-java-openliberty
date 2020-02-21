@@ -1,0 +1,2 @@
+project-name: sample-java-openliberty
+stack: docker.io/kabanerobeta/java-openliberty:0.2
