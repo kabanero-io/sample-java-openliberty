@@ -5,15 +5,15 @@ metadata:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
     build-date: 2019-10-29T16:44:53.794580
-    commit.stack.appsody.dev/author: kilnerm <38245247+kilnerm@users.noreply.github.com>
+    commit.stack.appsody.dev/author: Steve Groeger <groeges@uk.ibm.com>
     commit.stack.appsody.dev/committer: GitHub <noreply@github.com>
     commit.stack.appsody.dev/contextDir: /incubator/java-openliberty
-    commit.stack.appsody.dev/date: Fri Feb 21 17:32:05 2020 +0000
-    commit.stack.appsody.dev/message: 'Merge pull request #293 from groeges/release-0.6'
+    commit.stack.appsody.dev/date: Tue Mar 10 13:54:06 2020 +0000
+    commit.stack.appsody.dev/message: 'Merge pull request #309 from groeges/release-0.6'
     description: This image is the Kabanero development container for the java-openliberty
       stack
     distribution-scope: public
-    image.opencontainers.org/created: "2020-02-21T17:29:59-05:00"
+    image.opencontainers.org/created: "2020-03-10T15:36:33-04:00"
     k8s.io/description: The Universal Base Image is designed and engineered to be
       the base layer for all of your containerized applications, middleware and utilities.
       This base image is freely redistributable, but Red Hat only supports Red Hat
@@ -30,27 +30,27 @@ metadata:
     release: "277"
     stack.appsody.dev/authors: Mike Andrasak <andrasak@us.ibm.com>, Andy Mauer <ajmauer@us.ibm.com>,
       Scott Kurz <skurz@us.ibm.com>, Adam Wisniewski <awisniew@us.ibm.com>
-    stack.appsody.dev/configured: docker.io/kabanerobeta/java-openliberty:0.2
-    stack.appsody.dev/created: "2020-02-21T17:43:33Z"
+    stack.appsody.dev/configured: docker.io/kabanero/java-openliberty:0.2
+    stack.appsody.dev/created: "2020-03-10T14:14:31Z"
     stack.appsody.dev/description: Open Liberty & OpenJ9 using Maven
-    stack.appsody.dev/documentation: https://github.com/kabanero-io/collections/tree/release-0.6/incubator/java-openliberty/README.md
+    stack.appsody.dev/documentation: https://github.com/kabanero-io/collections/tree/master/incubator/java-openliberty/README.md
     stack.appsody.dev/licenses: Apache-2.0
-    stack.appsody.dev/revision: 184e367afb4c3aa906f2a8daf7ebed70168e0a82
-    stack.appsody.dev/source: https://github.com/kabanero-io/collections/tree/release-0.6/incubator/java-openliberty/image
-    stack.appsody.dev/tag: docker.io/kabanerobeta/java-openliberty:0.2.2
+    stack.appsody.dev/revision: 998cf17e727eef2d3e9cc717d8aab2275732e1a6
+    stack.appsody.dev/source: https://github.com/kabanero-io/collections/tree/master/incubator/java-openliberty/image
+    stack.appsody.dev/tag: docker.io/kabanero/java-openliberty:0.2.3
     stack.appsody.dev/title: Open Liberty
-    stack.appsody.dev/url: https://github.com/kabanero-io/collections/tree/release-0.6/incubator/java-openliberty
+    stack.appsody.dev/url: https://github.com/kabanero-io/collections/tree/master/incubator/java-openliberty
     summary: Image for Kabanero java-openliberty development
     url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/images/8.1-277
     vcs-ref: c42933bcdbf9f1c232e981a5e40de257c3534c8e
     vcs-type: git
     vendor: Kabanero
-    version: 0.2.2
+    version: 0.2.3
   creationTimestamp: null
   labels:
     image.opencontainers.org/title: sample-java-openliberty
     stack.appsody.dev/id: java-openliberty
-    stack.appsody.dev/version: 0.2.2
+    stack.appsody.dev/version: 0.2.3
   name: sample-java-openliberty
 spec:
   applicationImage: dev.local/sample-java-openliberty
@@ -78,4 +78,3 @@ spec:
     type: NodePort
   stack: java-openliberty
   version: 1.0.0
-status: {}
