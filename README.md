@@ -1,1 +1,1 @@
-kabanero-io/kabanero-stack-hub java-openliberty release 0.7.0
+kabanero-io/kabanero-stack-hub java-openliberty release 0.8.0
